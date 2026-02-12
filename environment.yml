@@ -1,0 +1,29 @@
+name: dsformer-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - sympy
+  - tqdm
+  - pytorch
+  - transformers
+  - einops
+  - pywavelets  # for pywt
+  - statsmodels
+  - arch
+  - nltk
+  - pip
+  - pip:
+      - mamba-ssm
+      - reformer-pytorch
+      - uni2ts
+      - tirex
+      - timesfm
+      - data_provider
